@@ -1,0 +1,16 @@
+<div id = titre>
+	<p><h1>RESUME</h1></p>
+</div>
+
+<div><p><button ng-click = "getstatus('toto')">OK</button>
+	<input type = "text" ng-model = "toto"/>
+
+</p></div>
+<div id = information>
+	<p><h4> Name: Feng Ding </h4></p>
+	<p><h4> Address: 2255 Route des Doline, Residence des Dolines APPT49, 06560 Valbonne, France<h4></p>
+	<p><h4> Email: dingbobby@hotmail.com </h4></p>
+	<p><h4> Tel: 0033667234073 </h4></p>
+	<p><h4> Date birth: November, 11th, 1990 </h4><p>
+	<p><h4> Nationality: Chinese </h4><p>
+</div>

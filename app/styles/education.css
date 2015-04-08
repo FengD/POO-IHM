@@ -1,0 +1,70 @@
+.container-fluid {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: 0% !important;
+  margin-left: 0% !important;
+}
+
+.info .row {
+
+  margin-right: 15% !important;
+  margin-left: 15% !important;
+}
+
+.backphoto {
+	background-image: url("../assets/images/race2.png");
+	background-position-x: initial; 
+	background-position-y: initial; 
+	background-size: cover; 
+	background-repeat:no-repeat;
+	background-attachment: initial; 
+	background-origin: initial; 
+	background-clip: initial;
+	min-height: 450px;
+}
+
+#download {
+	position:relative;
+	border: 2px solid #fff !important;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 1em 1em;
+	line-height: 1em;
+	font-family: inherit;
+	font-size: 150%;
+	text-decoration:none;
+	color: #ffffff;
+	width: 400px;
+	margin-top: 50px;
+	margin-left: -200px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+}
+
+#download:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#line1 {
+	position: relative;
+	top: 30px;
+	color: #ffffff;
+	text-align: center;
+	font-family: "sans-serif";
+}
+
+#logo {
+	border-radius: 50%;
+	border: 3px solid #fff !important;
+	position:relative;
+	top: 50px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+h1 h2 h3 h4 h5 h6{
+	text-rendering: optimizeLegibility;
+}

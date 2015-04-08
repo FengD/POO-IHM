@@ -1,0 +1,12 @@
+<div id = "titre">
+	<p id = "background">
+		<img src = "assets/images/NMB.jpg" height ="200" width = "200"/>
+	</p>
+</div>
+
+
+<div id = "information"><ul>
+	<li ng-repeat = "etab in education.information">{{etab.name}}</li>
+</ul></div>
+
+
