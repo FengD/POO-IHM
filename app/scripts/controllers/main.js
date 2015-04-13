@@ -8,14 +8,17 @@
  * Controller of the projetApp
  */
 angular.module('projetApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', ['$scope', '$http', function ($scope,$http) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    $scope.toto = 'Hello';
-    $scope.getstatus = function(n) {
-	$scope.toto = n;
-    };
-  });
+    $scope.education = '';
+    $http.get('assets/educationEn.json').
+      success(function (data){
+        $scope.education = data;
+        }).error(function(error){
+      console.log(error);
+    });
+  }]);

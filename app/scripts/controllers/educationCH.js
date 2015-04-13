@@ -8,9 +8,9 @@
  * Controller of the projetApp
  */
 angular.module('projetApp')
-  .controller('EDCtrl', ['$scope', '$http', function($scope,$http){
+  .controller('EDCHCtrl', ['$scope', '$http', function($scope,$http){
 	$scope.education = '';
-	$http.get('assets/educationFr.json').
+	$http.get('assets/educationCH.json').
 			success(function (data){
 				$scope.education = data;
 				}).error(function(error){

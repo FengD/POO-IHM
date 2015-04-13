@@ -9,9 +9,9 @@
 <div  class="page-header container-fluid" id = "titre">
 	<div class = "row">
 		<div class = "backphoto">
-			<a id = "download" href="assets/images/CVDingFeng(French).pdf">TÉLÉCHARGER LE CV</a>
-			<h1 id = "line1">La vie est belle!</h1>
-            <h1 id = "line1">ALLEZ! ALLEZ!</h1>
+			<a id = "download" href="assets/images/chinesecv.pdf">下载我的简历</a>
+			<h1 id = "line1">坚持梦想!</h1>
+            <h1 id = "line1">勿忘初衷!</h1>
 			<img id = "logo" src = "assets/images/feng.jpg" width = "120"/>
 		</div>
 	</div>
@@ -43,7 +43,7 @@
 
 <div class="row">
 	<div class="col-lg-4">
-        <h1>COMPÉTANCE</h1>
+        <h1>外语能力, 计算机水平</h1>
     </div>
     <div class="col-lg-6">
     	<div class="container" id = "information">
@@ -60,18 +60,19 @@
 
 <div class="row">
 	<div class="col-lg-4">
-        <p><h1>EXPÉRIENCE PROFESSIONNELLE</h1></p>
+        <p><h1>实习与实践</h1></p>
     </div>
     <div class="col-lg-6">
     	<div class="container" id = "information">
     		<ul>
-    			<h5 class = "workextitle" ng-repeat = "etab in education.workexperience1">{{etab.name}}</h3>
-    			<h5 class = "workextitle" ng-repeat = "etab in education.workexperience4">{{etab.name}}</h5>
-    			<h5 class = "workextitle" ng-repeat = "etab in education.workexperience2">{{etab.name}}</h3>
-    			<h5 class = "workeXtitle" ng-repeat = "etab in education.workexperience5">{{etab.name}}</h5>
-    			<h5 class = "workextitle" ng-repeat = "etab in education.workexperience3">{{etab.name}}</h3>
-    			<h5 class = "workextitle" ng-repeat = "etab in education.workexperience6">{{etab.name}}</h5>
-                <h5 class = "workextitle" ng-repeat = "etab in education.workexperience7">{{etab.name}}</h5>
+    			<h3 class = "workextitle" ng-repeat = "etab in education.workexperience1">{{etab.name}}</h3>
+                <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience1content">{{etab.name}}</h5>
+                <h3 class = "workextitle" ng-repeat = "etab in education.workexperience2">{{etab.name}}</h3>
+                <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience2content">{{etab.name}}</h5>
+                <h3 class = "workextitle" ng-repeat = "etab in education.workexperience3">{{etab.name}}</h3>
+                <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience3content">{{etab.name}}</h5>
+                <h3 class = "workextitle" ng-repeat = "etab in education.workexperience4">{{etab.name}}</h3>
+                <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience4content">{{etab.name}}</h5>
 			</ul>
 		</div>
 	</div>
@@ -83,7 +84,7 @@
 
 <div class="row">
 	<div class="col-lg-4">
-        <h1>FORMATION</h1>
+        <h1>教育背景</h1>
     </div>
     <div class="col-lg-6">
     	<div class="container" id = "information">

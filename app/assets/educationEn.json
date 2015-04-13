@@ -1,0 +1,112 @@
+{   "information": 
+	[ 
+		{"name": "Name: Feng Ding"},
+		{"name": "Address: 2255 Route des Doline, Residence des Dolines APPT49, 06560 Valbonne, France"},
+		{"name": "Tel: 0033667234073"},
+		{"name": "Date birth: November, 11th, 1990"},
+		{"name": "Nationality: Chinese"}
+	],
+
+	"workexperience1":
+	[
+		{"name": "07/2011-08/2011"},
+		{"name": "Trained in the technology department of Beijing Jingwei Hierain Technology Limited Liability Company"}
+	],
+
+	"workexperience1content":
+	[
+		{"name": "1. Contents of learning:"},
+		{"name": "Study and research of the Bus technology, especially the Time-Triggered Ethernet."},
+		{"name": "2. Finished jobs:"},
+		{"name": "Translation of the technological document (20,000 Chinese characters);"},
+		{"name": "Preparation of a presentation named The Overview of Ethernet Technology;"},
+		{"name": "Assembling of a control unit."},
+		{"name": "3. Technological communication:"},
+		{"name": "Participating meetings of technological communication."}
+	],
+
+	"workexperience2":
+	[
+		{"name": "09/2010-06/2011"},
+		{"name": "Worked in the News Center of the Student Union"}
+	],
+
+	"workexperience2content":
+	[
+		{"name": "Position: Vice-director"},
+		{"name": "Main jobs:"},
+		{"name": "1.Edition of monthly newspapers of our institute;"},
+		{"name": "2.Translation of important articles;"},
+		{"name": "3.As a trainer in photograph and in picture processing of new members;"},
+		{"name": "4.Planner of activities in photograph and camera;"},
+		{"name": "5.Management of members for reporting of the news in our institute."}
+	],
+
+	"workexperience3":
+	[
+		{"name": "07/2012-08/2012"},
+		{"name": "Trained in Beijing Micogen General Technology Inc."}
+	],
+
+	"workexperience3content":
+	[
+		{"name": "1. Contents of learning:"},
+		{"name": "Study of fundament of the Embedded System;"},
+		{"name": "Study of the usage of Labview, a programming tool;"},
+		{"name": "Study of the usage of Exhuaustif, a computer software,"},
+		{"name": "related to technology of fault injection and fault diagnosis."},
+		{"name": "2. Finished jobs:"},
+		{"name": "Translation of the technological document named CRC"},
+		{"name": "(The Communication Research Center Canada)’s Technologies (30,000 Chinese characters)."},
+		{"name": "3. Technological communication:"},
+		{"name": "Participating the weekly meetings of technology in the company;"},
+		{"name": "Participating seminars as a software engineer of the company."}
+	],
+
+	"education1":
+	[
+		{"name": "2013 ~ Present"}
+	],
+
+	"education1content":
+	[
+		{"name": "Ecole Polytechique Nice Sophia; France; Major: I.T"}
+	],
+
+	"education2":
+	[
+		{"name": "2009 ~ 2013"}
+	],
+
+	"education2content":
+	[
+		{"name": "Beihang University; China; Diploma: Bachelor of Physics"}
+	],
+
+	"education3":
+	[
+		{"name": "2006 ~ 2009"}
+	],
+
+	"education3content":
+	[
+		{"name": "Wei Cheng high school; Xianyang; China; High school diploma"}
+	],
+
+	"technologies":
+	[
+		{"name": "CHINESE"},
+		{"name": "FRENCH"},
+		{"name": "ENGLISH"},
+		{"name": "JAVA"},
+		{"name": "C, C++"},
+		{"name": "PYTHON"},
+		{"name": "SQL"},
+		{"name": "HTML5/XML/CSS3"},
+		{"name": "VERSON CONTROL (GIT)"},
+		{"name": "LINUX"}
+	]
+}
+
+
+	

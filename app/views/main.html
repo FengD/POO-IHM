@@ -1,23 +1,100 @@
-<div class="jumbotron container">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="collapse navbar-collapse" id="js-navbar-collapse">
+  <ul class="nav navbar-nav">
+          <li><a ng-href="#/" id = "en"><img src = "../assets/images/english.jpeg" height = "30px" width = "45px"/></a></li>
+          <li><a ng-href="#/education" id = "fr"><img src = "../assets/images/france.png" height = "30px" width = "45px"/></a></li>
+            <li><a ng-href="#/educationCH" id = "ch"><img src = "../assets/images/china.png" height = "30px" width = "45px"/></a></li>
+    </ul>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<div  class="page-header container-fluid" id = "titre">
+  <div class = "row">
+    <div class = "backphoto">
+      <a id = "download" href="../assets/images/Resume(Feng DING).pdf">DOWNLOAD RESUME</a>
+      <h1 id = "line1">Running a race is like a journey through life,</h1>
+      <h1 id = "line1">both have their high and their low points!</h1>
+      <img id = "logo" src = "../assets/images/feng.jpg" width = "120"/>
+    </div>
+  </div>
+</div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+<div class = "info">
+<div class="row jumbotron">
+    <div class="col-lg-12">
+      <div class="container">
+        <ul>
+          <h4 ng-repeat = "etab in education.information">{{etab.name}}</h4>
+          <h5><a href="mailto:dingbobby@hotmail.com"><p>dingbobby@hotmail.com</p></a></h5>
+          <div class = "row">
+            <p>
+              <a href="https://www.facebook.com/feng.ding.127"><img src = "../assets/images/facebook.jpeg" width = "70" height = "70"/></a>
+              <a href="http://www.renren.com/279859447/profile"><img src = "../assets/images/renren.jpeg" width = "70" height = "70"/></a>
+              <a href="http://www.polytechnice.fr/"><img src = "../assets/images/polytech.jpeg" width = "70" height = "70"/></a>
+              <a href="http://www.buaa.edu.cn/"><img src = "../assets/images/beihang.jpg" width = "70" height = "70"/></a>
+            </p>
+          </div>
+      </ul>
+    </div>
+  </div>
+</div>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+<div class="row">
+      <hr/>
+</div>
+
+<div class="row">
+  <div class="col-lg-4">
+        <h1>TECHNOLOGIES</h1>
+    </div>
+    <div class="col-lg-6">
+      <div class="container">
+        <ul>
+          <h4 ng-repeat = "etab in education.technologies">{{etab.name}}</h4>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+      <hr/>
+</div>
+
+<div class="row">
+  <div class="col-lg-4">
+        <p><h1>WORK EXPERIENCE</h1></p>
+    </div>
+    <div class="col-lg-6">
+      <div class="container">
+        <ul>
+          <h3 class = "workextitle" ng-repeat = "etab in education.workexperience1">{{etab.name}}</h3>
+          <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience1content">{{etab.name}}</h5>
+          <h3 class = "workextitle" ng-repeat = "etab in education.workexperience2">{{etab.name}}</h3>
+          <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience2content">{{etab.name}}</h5>
+          <h3 class = "workextitle" ng-repeat = "etab in education.workexperience3">{{etab.name}}</h3>
+          <h5 class = "workexcontent" ng-repeat = "etab in education.workexperience3content">{{etab.name}}</h5>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+      <hr/>
+</div>
+
+<div class="row">
+  <div class="col-lg-4">
+        <h1>EDUCATION</h1>
+    </div>
+    <div class="col-lg-6">
+      <div class="container">
+        <ul>
+          <h3 ng-repeat = "etab in education.education1">{{etab.name}}</h3>
+          <h4 ng-repeat = "etab in education.education1content">{{etab.name}}</h4>
+          <h3 ng-repeat = "etab in education.education2">{{etab.name}}</h3>
+          <h4 ng-repeat = "etab in education.education2content">{{etab.name}}</h4>
+          <h3 ng-repeat = "etab in education.education3">{{etab.name}}</h3>
+          <h4 ng-repeat = "etab in education.education3content">{{etab.name}}</h4>
+      </ul>
+    </div>
+  </div>
+</div>
 </div>

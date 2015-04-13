@@ -1,0 +1,101 @@
+{   "information": 
+	[ 
+		{"name": "Nom: Feng Ding"},
+		{"name": "Adresse: 2255 Route des Doline, Residence des Dolines APPT49, 06560 Valbonne, France"},
+		{"name": "Portable: 0033667234073"},
+		{"name": "Date de Naissance: 11, Novembre, 1990"},
+		{"name": "Nationalité: Chinoise"}
+	],
+
+	"workexperience1":
+	[
+		{"name": "Juin.2014-Août.2014"},
+		{"name": "Restaurant Cascade (Antibes, France), serveur"}
+	],
+
+	"workexperience4":
+	[
+		{"name": "Août.2012-Sep.2012"},
+		{"name": "Shaanxi Qunli Electric General Technology(SARL) (Shaanxi, Chine), stagiaire dans l’usine"}
+	],
+
+	"workexperience2":
+	[
+		{"name": "Oct.2012-Mai.2013"},
+		{"name": "Lycée sur Internet(Zhuangyuan365, Pékin, Chine), prof de chimie"}
+	],
+
+	"workexperience5":
+	[
+		{"name": "Juil.2012-Août.2012"},
+		{"name": "Micogen General Technology(SARL) (Pékin, Chine), stagiaire à département de technologie"}
+	],
+
+	"workexperience3":
+	[
+		{"name": "Janv.2012-Janv.2013"},
+		{"name": "Groupe de l’ALPCN(recherche la station et la marche du robot avec seulement deux roues, 5 membres, Pékin, Chine), chef"}
+	],
+
+	"workexperience6":
+	[
+		{"name": "Juil.2011-Août.2011"},
+		{"name": "Jing Wei Heng Run(SARL) (Pékin, Chine), stagiaire à département de technologie"}
+	],
+
+	"workexperience7":
+	[
+		{"name": "Sep.2010-Sep.2011"},
+		{"name": "Groupe de journal(la branche de BDE, Pékin, Chine), vice-directeur"}
+	],
+
+	"education1":
+	[
+		{"name": "2013-à ce jour(2014)"}
+	],
+
+	"education1content":
+	[
+		{"name": "POLYTECH DE NICE-SOPHIA (Antipolis), science informatique"}
+	],
+
+	"education2":
+	[
+		{"name": "2009-2013"}
+	],
+
+	"education2content":
+	[
+		{"name": "ÉCOLE CENTRALE DE PÉKIN(université de BEIHANG, Pékin, Chine), Licence de Physique"}
+	],
+
+	"education3":
+	[
+		{"name": "2006-2009"}
+	],
+
+	"education3content":
+	[
+		{"name": "Lycée de WeiCheng (Chine), Diplôme du Baccalauréat"}
+	],
+
+	"technologies":
+	[
+		{"name": "CHINOIS"},
+		{"name": "FRANÇAIS"},
+		{"name": "ANGLAIS"},
+		{"name": "JAVA"},
+		{"name": "C, C++"},
+		{"name": "PYTHON"},
+		{"name": "SQL"},
+		{"name": "Langage Web (html, xml, css, dtd, xsd, xsl)"},
+		{"name": "VERSON CONTROL (GIT)"},
+		{"name": "Langage semantique (Yacc, Lex)"},
+		{"name": "Scheme"},
+		{"name": "UML"},
+		{"name": "LINUX"}
+	]
+}
+
+
+	

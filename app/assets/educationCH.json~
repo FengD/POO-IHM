@@ -1,0 +1,109 @@
+{   "information": 
+	[ 
+		{"name": "姓名：丁丰"},
+		{"name": "地址: 2255 Route des Doline, Residence des Dolines APPT49, 06560 Valbonne, France"},
+		{"name": "电话: 0033667234073"},
+		{"name": "出生日期: 1990年11月11日"},
+		{"name": "国籍：中国"}
+	],
+
+	"workexperience1":
+	[
+		{"name": "2011 年 7 月 至 2011 年 8 月"},
+		{"name": "在北京经纬恒润科技有限公司技术部实习"}
+	],
+
+	"workexperience1content":
+	[
+		{"name": "1.学习内容: 各种总线技术,主要研究实时以太网(TTE);"},
+		{"name": "2.工作内容: 翻译英文技术文献(2 万字),完成题为《以太网技术概述》的 PPT 演讲等,电气箱体组装等;"},
+		{"name": "3.技术交流: 参与公司技术交流会议。"}
+	],
+
+	"workexperience2":
+	[
+		{"name": "2010 年 9 月 至 2011 年 6 月"},
+		{"name": "在学院学生会新闻中心工作"}
+	],
+
+	"workexperience2content":
+	[
+		{"name": "职务:新闻中心副主任"},
+		{"name": "1.新闻编辑:编辑学院月报,撰写新闻,翻译重要新闻;"},
+		{"name": "2.成员培训:摄影技巧培训,照片的后期处理和视频制作;"},
+		{"name": "3.活动策划:学院各类活动的摄影和摄像策划;"},
+		{"name": "4.管理工作:调度人员实时报道学院有关事件。"}
+	],
+
+	"workexperience3":
+	[
+		{"name": "2012 年 7 月 至 2012 年 8 月"},
+		{"name": "在北京麦克沃根科技有限公司技术部实习"}
+	],
+
+	"workexperience3content":
+	[
+		{"name": "1.学习内容:学习 Labview 软件,进行应用编程;利用 Exhuaustif 软件进行故障注入和诊断技术研究;"},
+		{"name": "2.工作内容:翻译题为《加拿大通信研究中心专利技术》的字英文文献(3 万多字);"},
+		{"name": "3.技术交流:参加公司周技术例会,以公司工程师名义参加研讨会。"}
+	],
+
+	"workexperience4":
+	[
+		{"name": "2012 年 8 月 至 2012 年 9 月"},
+		{"name": "在群力电工集团实习"}
+	],
+
+	"workexperience4content":
+	[
+		{"name": "1.学习内容:学习固态继电器的工作原理和制作工艺;"},
+		{"name": "2.工作内容:独立制作两个固态继电器产品,并进行技术检查;"},
+		{"name": "3.技术交流:参加设计所技术交流活动。"}
+	],
+	"education1":
+	[
+		{"name": "2013 年 9 月至今"}
+	],
+
+	"education1content":
+	[
+		{"name": "就读于尼斯综合理工计算机专业"}
+	],
+
+	"education2":
+	[
+		{"name": "2009 年 9 月 至 2013 年 6 月"}
+	],
+
+	"education2content":
+	[
+		{"name": "就读于北京航空航天大学 中法工程师学院(理科实验班)专业"}
+	],
+
+	"education3":
+	[
+		{"name": "2006 年 9 月 至 2009 年 6 月"}
+	],
+
+	"education3content":
+	[
+		{"name": "就读于陕西咸阳渭城中学"}
+	],
+
+	"technologies":
+	[
+		{"name": "CHINESE"},
+		{"name": "FRENCH"},
+		{"name": "ENGLISH"},
+		{"name": "JAVA"},
+		{"name": "C, C++"},
+		{"name": "PYTHON"},
+		{"name": "SQL"},
+		{"name": "HTML5/XML/CSS3"},
+		{"name": "VERSON CONTROL (GIT)"},
+		{"name": "LINUX"}
+	]
+}
+
+
+	
